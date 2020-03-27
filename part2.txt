@@ -1,53 +1,55 @@
-What is the fetch Api? a. What does it replace the functionalities of? b. What does it provide an interface for?
+1. What is the fetch Api? a. What does it replace the functionalities of? b. What does it provide an interface for?
 
 (a) The Fetch Api is a promise based api which takes place of the functionalities of the XMLHttpRequest(XHR).
 (b) The Fetch Api is promise based, and it provides an interface for fetching resources from around the Web, or even from within your own project!
 
 
-What is a JavaScript Promise?
+2. What is a JavaScript Promise?
 
 A JavaScript promise is an object that represents the eventual completion or failure of an asynchronous operation and its resulting value.
-Why do developers like to use the fetch Api? And especially in conjunction with what? Give two reasons.
 
-What is the fetch Api completely based on?
+
+3. Why do developers like to use the fetch Api? And especially in conjunction with what? Give two reasons.
+
+Developers liked to use it because it retrieves data from a URL without a full page refresh. 
+
+especially in conjunction with promise chaining, is really simple.The other reason it is so popular is due to its flexibility and that it is so powerful.
+
+4. What is the fetch Api completely based on?
 
 The Fetch Api is completely promise based.
 
-What is the function declaration syntax of a regular named function?
+5. What is the function declaration syntax of a regular named function?
 
 function nameOfFunction() {
  // code to be executed here}
 
-What is the first thing the declaration of regular named function begins with?
+6. What is the first thing the declaration of regular named function begins with?
 
 the function keyword.
 
-What is that first thing followed by?
+7. What is that first thing followed by?
 
 It is followed by the name of the function.
 
-What rules do function names follow?
+8. What rules do function names follow?
 
 Function names follow the same rules as variables. They can contain letters, numbers (but not as the first character of the name), underscores, and $ signs. If there is more than one part to the name, the convention is to use camelCase for easier readability.
 
 
-What is promise chaining represented by in our Free IP Geolocation Api project?
+9. What is promise chaining represented by in our Free IP Geolocation Api project?
 
 promise chaining is represented by the .then() blocks.
 
-Why do we use arrow functions inside of the .then() blocks?
+10. Why do we use arrow functions inside of the .then() blocks?
 
-we use arrow functions inside the .then() block, so that our
-   objects can be seamlessly passed from one .then() block into
-   another, without implementing a lot of extra code that is
-   implicitly achieved with chaining.
+we use arrow functions inside the .then() block, so that our objects can be seamlessly passed from one .then() block into another, without implementing a lot of extra code that is implicitly achieved with chaining.
 
-What is the GoeLocation Api?
+11. What is the GoeLocation Api?
 
-The Geolocation Api is a web api that allows the user to
-   provide their location to web applications if they want to.
+The Geolocation Api is a web api that allows the user to provide their location to web applications if they want to.
 
-What must applications add to their application code in order to be able to use the Geolocation Api? There are two pieces involved. Explain what each piece represents.
+12. What must applications add to their application code in order to be able to use the Geolocation Api? There are two pieces involved. Explain what each piece represents.
 
 Applications that want to use the Geolocation API MUST add the
    geolocation permission property to their code. The user's
@@ -61,12 +63,12 @@ also, Navigator.geolocation is the entry point to the Geolocation
    location (among other things).
 
 
-How does the user allow the application to access their location? Use the application that you build to find out how.
+13. How does the user allow the application to access their location? Use the application that you build to find out how.
 
 A window will pop up no the web page asking users if they allow it to access their locations, users can choose either allow or block. 
 
 
-If the Geolocation Api is available in the active browser window, what built-in Geolocation method do we use to get the location of the user by longitude and latitude coordinates?
+14. If the Geolocation Api is available in the active browser window, what built-in Geolocation method do we use to get the location of the user by longitude and latitude coordinates?
 
 we can set the .getCurrentPosition() method on
    navigator.geolocation
