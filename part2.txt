@@ -1,6 +1,9 @@
 1. What is the fetch Api? a. What does it replace the functionalities of? b. What does it provide an interface for?
 
-(a) The Fetch Api is a promise based api which takes place of the functionalities of the XMLHttpRequest(XHR).
+
+The Fetch Api is a promise based api. 
+
+(a) It takes place of the functionalities of the XMLHttpRequest(XHR).
 (b) The Fetch Api is promise based, and it provides an interface for fetching resources from around the Web, or even from within your own project!
 
 
